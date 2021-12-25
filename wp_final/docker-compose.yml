@@ -27,7 +27,7 @@ services:
       - ./wordpress:/var/www/html
     restart: unless-stopped
     ports:
-      - "8080:80"
+      - "8181:80"
     environment:
       WORDPRESS_DB_HOST: wp_db:3306
       WORDPRESS_DB_USER: wordpress
