@@ -27,7 +27,7 @@ services:
       - ./wordpress:/var/www/html
     restart: unless-stopped
     ports:
-      - "8181:80"
+      - 8080:80
     environment:
       WORDPRESS_DB_HOST: wp_db:3306
       WORDPRESS_DB_USER: wordpress
@@ -43,7 +43,7 @@ services:
       - wp_db
     restart: unless-stopped
     ports:
-      - 8181:80
+      - 8181:81
     environment:
       PMA_HOST: wp_db
       MYSQL_ROOT_PASSWORD: wordpress
