@@ -1,3 +1,4 @@
+#Source: https://stackoverflow.com/questions/50999848/how-to-run-wp-cli-in-docker-compose-yml
 # Create a local WordPress environment using Docker containers.
 # Check your Docker Compose Version using the command docker-compose -v and this chart: https://docs.docker.com/compose/compose-file/
 
