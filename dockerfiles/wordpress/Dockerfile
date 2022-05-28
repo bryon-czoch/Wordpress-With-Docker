@@ -1,5 +1,5 @@
 # WordPress Dockerfile: Create container from official WordPress image, basic customizations.
-# docker build -t wordpress_local:wp_custom_1.0 .
+# docker build -t dockerfiles/wordpress
 
 FROM wordpress:latest
 
