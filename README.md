@@ -8,6 +8,6 @@ docker build Wordpress-With-Docker/dockerfiles/wordpress
 cd Wordpress-With-Docker/wp_final/
 
 # Run teh codes
-docker-compose up
+bash build.sh
 
 # Profit
