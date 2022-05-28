@@ -7,7 +7,7 @@ cd Wordpress-With-Docker
 # Run all teh codes
 bash build.sh
 
-# Browse to configure Wordpress with name and password per usual
+# Browse to configure Wordpress w/ name and password per usual
 
 http://localhost:8080
 
