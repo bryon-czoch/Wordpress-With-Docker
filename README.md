@@ -10,4 +10,6 @@ bash build.sh
 # Browse
 http://localhost:8080
 
+# Configure Wordpress with name and password per usual
+
 # Profit
