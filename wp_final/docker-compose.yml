@@ -20,7 +20,7 @@ services:
     - wp_network
 
   wp:
-    container_name: wp:latest
+    container_name: wp
     build: ../dockerfiles/wordpress
     depends_on:
       - wp_db
