@@ -1,7 +1,7 @@
 # Pull the repo
 git clone https://github.com/bryon-czoch/Wordpress-With-Docker.git
 
-# Change Dir
+# Change directory
 cd Wordpress-With-Docker.git
 
 # Run teh codes
