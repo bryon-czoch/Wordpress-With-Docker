@@ -1,7 +1,10 @@
 # Pull the repo
 git clone https://github.com/bryon-czoch/Wordpress-With-Docker.git
 
-# Run it
+# Change to the directory
+cd Wordpress-With-Docker
+
+# Build & Run it
 bash build.sh
 
 # Browse to configure Wordpress w/ name and password per usual
