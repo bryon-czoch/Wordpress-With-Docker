@@ -7,4 +7,7 @@ docker build Wordpress-With-Docker/dockerfiles/wordpress
 # Run teh codes
 bash build.sh
 
+# Browse
+http://localhost:8080
+
 # Profit
