@@ -7,8 +7,7 @@ FROM phpmyadmin/phpmyadmin:latest
 RUN apt update && \
     apt upgrade -y && \
     apt autoremove && \
-    apt install -y \
-    vim
+    apt install -y vim
 
 # Replace php.ini
 COPY php.ini /usr/local/etc/php
