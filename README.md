@@ -2,7 +2,7 @@
 https://docs.docker.com/get-docker/
 
 # Install Git
-https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+https://git-scm.com/download
 
 # Pull the repo
 git clone https://github.com/bryon-czoch/Wordpress-With-Docker.git
