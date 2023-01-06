@@ -5,7 +5,7 @@ https://docs.docker.com/get-docker/
 https://git-scm.com/download
 
 # Pull the repo
-git clone https://github.com/bryon-czoch/Wordpress-With-Docker.git
+```git clone https://github.com/bryon-czoch/Wordpress-With-Docker.git```
 
 # Change to the directory
 cd Wordpress-With-Docker
