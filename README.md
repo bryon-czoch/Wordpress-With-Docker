@@ -11,7 +11,7 @@ https://git-scm.com/download
 cd Wordpress-With-Docker
 
 # Build & Run it
-bash build.sh
+```bash build.sh```
 
 # Browse to configure Wordpress w/ name and password per usual
 
