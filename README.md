@@ -17,4 +17,5 @@ bash build.sh
 
 http://localhost:8080
 
-# Profit ![](https://stocksera.pythonanywhere.com/static/images/subreddit_icon/wallstreetbets.png | width=20)
+# Profit ![](https://stocksera.pythonanywhere.com/static/images/subreddit_icon/wallstreetbets.png)
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
