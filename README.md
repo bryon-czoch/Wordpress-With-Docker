@@ -17,4 +17,4 @@ bash build.sh
 
 http://localhost:8080
 
-# Profit <img src="https://stocksera.pythonanywhere.com/static/images/subreddit_icon/wallstreetbets.png" width=3%>
+# Profit<img src="https://user-images.githubusercontent.com/6404721/210921321-e8db7cd7-a058-4347-a30e-15dd7b64d877.png" width=7%>
