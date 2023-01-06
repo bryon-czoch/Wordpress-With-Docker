@@ -8,7 +8,7 @@ https://git-scm.com/download
 ```git clone https://github.com/bryon-czoch/Wordpress-With-Docker.git```
 
 # Change to the directory
-cd Wordpress-With-Docker
+```cd Wordpress-With-Docker```
 
 # Build & Run it
 ```bash build.sh```
