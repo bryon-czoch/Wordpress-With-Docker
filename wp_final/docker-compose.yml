@@ -10,6 +10,7 @@ services:
     image: mariadb:latest
     volumes:
       - ./mysql:/var/lib/mysql
+      - ./boom-mind-blown.sql:/docker-entrypoint-initdb.d/boom-mind-blown.sql
     restart: unless-stopped
     environment:
       MYSQL_ROOT_PASSWORD: wordpress
@@ -26,6 +27,7 @@ services:
       - wp_db
     volumes:
       - ./wordpress:/var/www/html
+      - ./uploads/boom-mind-blown.gif:/var/www/html/wp-content/uploads/boom-mind-blown.gif
     restart: unless-stopped
     ports:
       - 8080:80
@@ -34,20 +36,6 @@ services:
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: wordpress
       WORDPRESS_DB_NAME: wordpress
-    networks:
-    - wp_network
-  
-  phpmyadmin:
-    container_name: phpmyadmin
-    build: ../dockerfiles/phpmyadmin
-    depends_on:
-      - wp_db
-    restart: unless-stopped
-    ports:
-      - 8181:80
-    environment:
-      PMA_HOST: wp_db
-      MYSQL_ROOT_PASSWORD: wordpress
     networks:
     - wp_network
 
