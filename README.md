@@ -7,7 +7,7 @@ https://docs.docker.com/get-docker/
 https://git-scm.com/download
 
 ## Install docker-compose
-...
+https://docs.docker.com/compose/install/
 
 ## Pull the repo
 ```git clone https://github.com/bryon-czoch/Wordpress-With-Docker.git```
